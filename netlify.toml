@@ -1,0 +1,7 @@
+## Netlify build config for TanStack Start (SSR via Nitro "netlify" preset)
+## Do NOT add a SPA fallback ("/*" -> "/index.html") — this app is server-rendered.
+## Nitro emits Netlify Functions + a static client bundle and wires routing automatically.
+
+[build]
+  command = "npm run build"
+  publish = "dist/client"
